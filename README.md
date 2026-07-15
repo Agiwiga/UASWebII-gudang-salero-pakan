@@ -34,8 +34,24 @@ User
 Username : user
 Password : 1
 
-## Screenshot
-(Boleh ditambahkan nanti)
+## Instalasi
+1. Clone repository.
+2. Pindahkan project ke folder `laragon/www/`.
+3. Import database `database/salero_pakan.sql` melalui phpMyAdmin.
+4. Jalankan Apache dan MySQL di Laragon.
+5. Buka:
+
+http://localhost/salero-pakan
+
+## Login
+
+### Admin
+- Username: admin
+- Password: 1
+
+### User
+- Username: user
+- Password: 1
 
 ## Author
 Nama
