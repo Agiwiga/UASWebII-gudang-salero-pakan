@@ -1,0 +1,125 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.wrapper{
+
+    display:flex;
+
+}
+
+.sidebar{
+
+    width:240px;
+
+    min-height:100vh;
+
+    background:#198754;
+
+    color:white;
+
+    padding:20px;
+
+}
+
+.sidebar h3{
+
+    font-weight:bold;
+
+}
+
+.sidebar a{
+
+    display:block;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:12px;
+
+    border-radius:8px;
+
+    margin-bottom:8px;
+
+    transition:0.3s;
+
+}
+
+.sidebar a:hover{
+
+    background:rgba(255,255,255,.2);
+
+}
+
+.content{
+
+    flex:1;
+
+    padding:25px;
+
+}
+
+.sidebar a.active{
+    background: rgba(255,255,255,.25);
+    font-weight: bold;
+}
+
+.sidebar a i{
+    margin-right:8px;
+}
+
+.card{
+    border:none;
+    border-radius:12px;
+}
+
+.table{
+    background:white;
+}
+
+.table th{
+    vertical-align:middle;
+}
+
+.table td{
+    vertical-align:middle;
+}
+
+.btn{
+    border-radius:8px;
+}
+
+.sidebar a.active{
+
+    background:white;
+
+    color:#198754;
+
+    font-weight:bold;
+
+}
+
+.sidebar a.active:hover{
+
+    background:white;
+
+    color:#198754;
+
+}
+
+.sidebar a.logout{
+
+    color:#ffb3b3;
+
+}
+
+.sidebar a.logout:hover{
+
+    background:#dc3545;
+
+    color:white;
+
+}
